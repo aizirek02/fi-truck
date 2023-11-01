@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Future Innovations Ltd</title>
+
+    <!-- Bootstrap Core CSS -->
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Custom Fonts -->
+
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+
+
+    <!-- Custom Animations -->
+
+    <link rel="stylesheet" href="css/animate.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top my-navbar">
+            <div class="container-fluid top-nav">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo-top page-scroll" href="#header">
+                        <img class="img-responsive logo" src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="row my-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden nav-buttons">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li>
+                                <a myLang="about" class="page-scroll" href="#about">About</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                    aria-expanded="false"><span myLang="products">Products</span> <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu menu-list">
+                                    <li><a myLang="box_ref_lang" href="products/box_ref/box_ref.html">Box, Refrigerated
+                                            box</a></li>
+                                    <li><a myLang="external_lock_lang"
+                                            href="products/external_lock/external_lock.html">External Lock Sets</a></li>
+                                    <li><a myLang="aluminium_doors_lang"
+                                            href="products/aluminium_doors/aluminium_doors.html">Aluminium doors and
+                                            side
+                                            boards</a></li>
+                                    <li><a myLang="sliding_roof_lang"
+                                            href="products/sliding_roof/sliding_roof.html">Sliding roof systems and
+                                            parts</a></li>
+                                    <li><a myLang="pvc_rubber_lang" href="products/pvc_rubber/pvc_rubber.html">PVC AND
+                                            RUBBER PROFILES</a></li>
+                                    <li><a myLang="rubber_buffer_lang"
+                                            href="products/rubber_buffer/rubber_buffer.html">Rubber buffers</a></li>
+                                    <li><a myLang="plastic_product_lang"
+                                            href="products/plastic_product/plastic_product.html">Plastic products</a>
+                                    </li>
+                                    <li><a myLang="lamps_lang" href="products/lamps/lamps.html">Lamps</a></li>
+                                    <li><a myLang="aluminium_profile_lang"
+                                            href="products/aluminium_profile/aluminium_profile.html">Aluminium
+                                            Profiles</a></li>
+                                    <li><a myLang="landing_gear_lang"
+                                            href="products/landing_gear/landing_gear.html">Landing gears, king pin</a>
+                                    </li>
+                                    <li><a myLang="agro_trailer_lang"
+                                            href="products/agro_trailer/agro_trailer.html">Agro-trailers parts</a></li>
+                                    <li><a myLang="movable_part_lang"
+                                            href="products/movable_part/movable_part.html">Movable partition walls</a>
+                                    </li>
+                                    <li><a myLang="tarpaulin_lang"
+                                            href="products/tarpaulin/tarpaulin.html">Tarpaulin</a></li>
+                                    <li><a myLang="ventilation_lang"
+                                            href="products/ventilation/ventilation.html">Ventilation and Emergency
+                                            hatches</a></li>
+                                    <li><a myLang="seats_luggage_lang"
+                                            href="products/seats_luggage/seats_luggage.html">Seats and Luggage racks for
+                                            vans</a></li>
+                                    <li><a myLang="automatic_step_lang"
+                                            href="products/automatic_step/automatic_step.html">Automatic step</a></li>
+                                    <li><a myLang="mudflap_lang" href="products/mudflap/mudflap.html">Mudflaps</a></li>
+                                    <li><a myLang="modular_isolation_lang"
+                                            href="products/modular_isolation/modular_isolation.html">Modular isolation
+                                            for vans</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a myLang="contact" class="page-scroll" href="#contact-us">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lang-menu">
+                        <ul>
+                            <li onclick="setWebsiteLang('en')">
+                                <img class="lang-img" src="img/flags/united-kingdom.png">EN
+                            </li>
+                            <li onclick="setWebsiteLang('tr')">
+                                <img class="lang-img" src="img/flags/turkey.png">TR
+                            </li>
+                            <li onclick="setWebsiteLang('ru')">
+                                <img class="lang-img" src="img/flags/russia.png">RU
+                            </li>
+                            <li onclick="setWebsiteLang('de')">
+                                <img class="lang-img" src="img/flags/germany.png">DE
+                            </li>
+                            <li onclick="setWebsiteLang('ar')">
+                                <img class="lang-img" src="img/flags/saudi-arabia.png">AR
+                            </li>
+                            <li onclick="setWebsiteLang('fr')">
+                                <img class="lang-img" src="img/flags/france.png">FR
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!-- Slider -->
+    <section id="slider">
+        <div id="myCarousel-one" class="carousel slide carousel-style">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel-one" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel-one" data-slide-to="1"></li>
+
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+
+                    <div class="carousel-caption wrapper">
+                        <div class="row my-row">
+                            <div class="col-md-12 my-col-12">
+                                <div class="intro-text">
+                                    <h2 myLang="future_innovations"
+                                        class="intro-heading animated bounceInRight carouselTxt">Future Innovations</h2>
+                                    <p myLang="future_i_ltd" class="intro-paragraph animated bounceInLeft carouselP">
+                                        Future Innovations Ltd is
+                                        manufacturer and partner of leading manufacturers of components <br> for
+                                        refrigerated
+                                        boxes, trailers, semi – trailers and chassis.</p>
+                                </div>
+                                <a href="#about" myLang="about"
+                                    class="page-scroll btn btn-xl slider-button animated bounceInUp">About</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/backgrounds/header-bg.jpg" alt="slider-image" />
+
+                </div>
+                <div class="item">
+                    <div class="carousel-caption wrapper">
+                        <div class="row my-row">
+                            <div class="col-md-12 my-col-12">
+                                <div class="intro-text">
+                                    <h2 myLang="accessories" class="intro-heading animated bounceInRight carouselTxt">
+                                        Accessories</h2>
+                                    <p myLang="accessories_txt" class="intro-paragraph animated bounceInLeft carouselP">
+                                        «Future Innovation Ltd»
+                                        offers only the highest quality accessories for carrosseries and specialized
+                                        equipment.
+                                    </p>
+                                </div>
+                                <a href="#team" myLang="new_products"
+                                    class="page-scroll btn btn-xl slider-button animated bounceInUp">New
+                                    Products</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/backgrounds/header-bg-2.jpg" alt="slider-image" />
+                </div>
+                <!-- Controls -->
+                <a class="myCarousel-one-left" href="#myCarousel-one" data-slide="prev">
+                    <i class="fa fa-angle-left arrow-icon"></i>
+                </a>
+                <a class="myCarousel-one-right" href="#myCarousel-one" data-slide="next">
+                    <i class="fa fa-angle-right arrow-icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container-fluid wrapper">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h2 myLang="about" class="section-heading animated fadeInUp">About</h2>
+                    <h3 class="section-subheading about-style animated fadeInUp">&emsp;&emsp;
+                        <span myLang="about_1">FUTURE INNOVATIONS DIS TIC.
+                            LTD. STI. was
+                            established in
+                            ISTANBUL / TURKEY in 2012.Since then we have been developing everyday. Today we are proud to
+                            collaborate with
+                            leading
+                            manufacturers of truck body builders, trailers, semi trailers, firefighting trucks and
+                            commercial vehicles Worldwide.</span><br>
+                        &emsp;&emsp;<span myLang="about_2">We produce (if not everything) and supply ALL kinds of parts
+                            and accessories for all
+                            types of:
+                            semi-trailers, dry boxes (dry vans), reefer boxes (refrigerated boxes), reefer
+                            semi-trailers,
+                            carroseries, tankers, curtain-side trailers, commercial vehicles, container shipping
+                            semi-trailers,commercial vehicles, bodies, trailers, firefighting trucks, emergency response
+                            vehicles, ambulances, vans, caravans.</span><br>
+                        <span myLang="about_3">We can offer you</span>:<br>
+                        <ul>
+                            <li myLang="about_li_1">Truck, semi trailer, reefer and dry box body parts:hinges, locks,
+                                handles, external
+                                locks,
+                                push handles, door retainers, side protection bars,interior lights, truck ladders, truck
+                                partition walls, truck door seals(gaskets or profiles),truck body aluminum profiles,
+                                twist
+                                locks, truck body casting parts, side pillars, sliding roof systems, recessed handles,
+                                cam and
+                                keepers, truck sandwich panels, reinforced fiberglass sheets</li>
+                            <li myLang="about_li_2">Firefighting vehicle (truck) parts:
+                                Roller shutters, roll up doors, rear aluminum ladders, zone lights, firemen seats,
+                                clamps,
+                                window frames, hinges, door handles, gaskets, profiles and seals, warning lights and
+                                siren
+                                systems, strobe lights, heavy duty slides, steps.</li>
+                            <li myLang="about_li_3">Bus bodyworks parts:
+                                Ventilation hatches, luggage racks, service sets, interior lights, VIP seats, bus seats,
+                                passenger seats, aluminum profiles, gaskets, window frames, curtain sets.</li>
+                        </ul>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Products Section -->
+    <section id="team">
+        <div class="container-fluid wrapper">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 myLang="new_products" class="section-heading">New Products</h2>
+                </div>
+            </div>
+            <div id="myCarousel-two" class="carousel slide myCarousel-new-product">
+                <!-- Wrapper for Slides -->
+                <div class="carousel-inner team-wrapper">
+                    <div class="item active">
+                        <div class="row new-product-row">
+                            <h4 class="new-product-name" myLang="new_model_hingle">New Model Hingle</h4>
+                            <div class="col-md-4 new-product-col">
+                                <a href="img/new_products/slide_1_1.jpg" data-lightbox="new-product-1">
+                                    <img class="new-product-img" src="img/new_products/slide_1_1_thumb.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-4 new-product-col">
+                                <a href="img/new_products/slide_1_2.jpg" data-lightbox="new-product-1">
+                                    <img class="new-product-img" src="img/new_products/slide_1_2_thumb.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="new-product-text">
+                                    <span myLang="hing_galv_stain">Hingle (galv. / Stainless steel.)</span><br>
+                                    <strong><span myLang="product_code">Product Code</span></strong><br>
+                                    <strong><span myLang="galvanized">Galvanized</span>:</strong> 100.01.001<br>
+                                    <strong><span myLang="stainless">Stainless</span>:</strong> 100.01.002<br>
+                                    <strong><span myLang="packing_quantity">Packing Quantity (pcs)</span>:</strong>
+                                    25<br>
+                                    <a myLang="read_more" class="new-product-read"
+                                        href="./products/box_ref/box_ref.html">Read more...</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row new-product-row">
+                            <h4 myLang="new_model_handle_lock" class="new-product-name">New Model Handle Lock with Key
+                            </h4>
+                            <div class="col-md-4 new-product-col">
+                                <a href="img/new_products/slide_2_1.jpg" data-lightbox="new-product-2">
+                                    <img class="new-product-img" src="img/new_products/slide_2_1_thumb.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-4 new-product-col">
+                                <a href="img/new_products/slide_2_2.jpg" data-lightbox="new-product-2">
+                                    <img class="new-product-img" src="img/new_products/slide_2_2_thumb.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="new-product-text">
+                                    <span myLang="model_handle_lock">Model Handle Lock with Key Ø27mm</span><br>
+                                    <strong><span myLang="product_code">Product Code</span></strong><br>
+                                    <strong><span myLang="galvanized">Galvanized</span>:</strong> 100.02.001<br>
+                                    <strong><span myLang="stainless">Stainless</span>:</strong> 100.02.002<br>
+                                    <strong><span myLang="packing_quantity">Packing Quantity (pcs)</span>:</strong>
+                                    10<br>
+                                    <a class="new-product-read" href="./products/box_ref/box_ref.html">Read more...</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row new-product-row">
+                            <h4 myLang="interior_lights" class="new-product-name">Interior lights (Power Led)</h4>
+                            <div class="col-md-4 new-product-col">
+                                <a href="img/new_products/slide_3_1.jpg" data-lightbox="new-product-3">
+                                    <img class="new-product-img" src="img/new_products/slide_3_1_thumb.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-4 new-product-col">
+                                <a href="img/new_products/slide_3_2.jpg" data-lightbox="new-product-3">
+                                    <img class="new-product-img" src="img/new_products/slide_3_2_thumb.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-4 new-product-col">
+                                <a href="img/new_products/slide_3_3.jpg" data-lightbox="new-product-3">
+                                    <img class="new-product-img" style="height:118px"
+                                        src="img/new_products/slide_3_3_thumb.jpg">
+                                </a><br>
+                                <span><a myLang="read_more" class="new-product-read"
+                                        href="./products/lamps/lamps.html">Read
+                                        more...</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row new-product-row">
+                            <h4 myLang="interior_wall" class="new-product-name">Interior wall systems for trucks</h4>
+                            <div class="col-md-4 new-product-col">
+                                <a href="img/new_products/slide_4_1.jpg" data-lightbox="new-product-4">
+                                    <img class="new-product-img" src="img/new_products/slide_4_1_thumb.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-4 new-product-col">
+                                <a href="img/new_products/slide_4_2.jpg" data-lightbox="new-product-4">
+                                    <img class="new-product-img" src="img/new_products/slide_4_2_thumb.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-4 new-product-col">
+                                <a href="img/new_products/slide_4_3.jpg" data-lightbox="new-product-4">
+                                    <img class="new-product-img" style="height:118px"
+                                        src="img/new_products/slide_4_3_thumb.jpg">
+                                </a><br>
+                                <span><a myLang="read_more" class="new-product-read"
+                                        href="./products/movable_part/movable_part.html">Read
+                                        more...</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarousel-two" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel-two" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel-two" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel-two" data-slide-to="1"></li>
+                    <li data-target="#myCarousel-two" data-slide-to="2"></li>
+                    <li data-target="#myCarousel-two" data-slide-to="3"></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-us">
+        <h2 myLang="contact">Contact</h2>
+        <div class="row content-address">
+            <div class="col-md-6">
+                <h5 myLang="istanbul_loc">ISTANBUL LOCATION</h5>
+                <address>
+                    <div>
+                        <div class="box-icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <span myLang="address">Address</span>:
+                        <p>KUCUKBAKKALKOY MH. KUCUK SETLI SOK. NO.59 DENGE
+                            PANORAMA D.38 ATASEHIR / ISTANBUL / TURKEY</p>
+                    </div>
+
+                    <div>
+                        <div class="box-icon">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                        <span myLang="email">Email</span>:
+                        <p><a>export@fi-truck.com</a> or <a>kgz.trade@gmail.com</a></p>
+                    </div>
+
+                    <div>
+                        <div class="box-icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <span myLang="phone">Phone</span>:
+                        <p>Tel: <a>+90 (216) 349 44 05</a> Fax: <a>+90 (216) 349 44 04</a></p>
+                    </div>
+                    <div>
+                        <div class="box-icon">
+                            <i class="fa fa-skype" aria-hidden="true"></i>
+                        </div>
+                        <span myLang="skype">Skype</span>:
+                        <p><a>numericrms</a></p>
+                    </div>
+                </address>
+            </div>
+            <div class="col-md-6">
+                <h5 myLang="ankara_loc">ANKARA LOCATION</h5>
+                <address>
+                    <div>
+                        <div class="box-icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <span myLang="address">Address:</span>
+                        <p>SARAY MAH. 58 CADDE. NO: 15 KAHRAMANKAZAN / ANKARA / TURKEY</p>
+                    </div>
+
+                    <div>
+                        <div class="box-icon">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                        <span myLang="email">Email:</span>
+                        <p><a>sales@fi-truck.com</a> or <a>exports.future@gmail.com</a></p>
+                    </div>
+
+                    <div>
+                        <div class="box-icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <span myLang="phone">Phone:</span>
+                        <p><a>+90 501 370 67 99</a> (WhatsApp) </p>
+                    </div>
+                    <div>
+                        <div class="box-icon">
+                            <i class="fa fa-skype" aria-hidden="true"></i>
+                        </div>
+                        <span myLang="skype">Skype:</span>
+                        <p><a>argenic85</a></p>
+                    </div>
+                </address>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid wrapper">
+            <div class="col-sm-6 col-md-12 social-icons-footer">
+                <ul class="list-inline social-buttons">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-google"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 copyright-bottom">
+                <span class="copyright">Copyright &copy; <a>elifSoft</a> 2022 template by <a href="http://templatestock"
+                        target="_blank">Template Stock</a> </span>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll-up -->
+    <div class="scroll-up">
+        <a href="#header" class="page-scroll"><i class="fa fa-angle-up" style="font-size:40px;color:white;"></i></a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <script src="js/lightbox.min.js"></script>
+
+    <!-- Index langs -->
+    <script src="js/indexLang.js"></script>
+
+    <!-- Languages -->
+    <script src="js/lang.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/fi-truck.js"></script>
+    <!-- Footer Reveal scirt -->
+    <script src="js/footer-reveal.js"></script>
+
+</body>
+
+</html>

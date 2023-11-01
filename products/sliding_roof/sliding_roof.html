@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Future Innovations Ltd</title>
+
+    <!-- Bootstrap Core CSS -->
+
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+
+    <link href="../../css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <link rel="stylesheet" href="../../css/products.css">
+
+    <link rel="stylesheet" href="./product.css">
+
+    <!-- Custom Fonts -->
+
+    <link href="../../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top my-navbar">
+            <div class="container-fluid top-nav">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo-top page-scroll" href="../../index.html">
+                        <img class="img-responsive logo" src="../../img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="row my-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden nav-buttons">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li>
+                                <a myLang="home" href="../../index.html">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                    aria-expanded="false"><span myLang="products">Products</span> <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu menu-list">
+                                    <li><a myLang="box_ref_lang" href="../box_ref/box_ref.html">Box, Refrigerated
+                                            box</a></li>
+                                    <li><a myLang="external_lock_lang"
+                                            href="../external_lock/external_lock.html">External Lock Sets</a></li>
+                                    <li><a myLang="aluminium_doors_lang"
+                                            href="../aluminium_doors/aluminium_doors.html">Aluminium doors and side
+                                            boards</a></li>
+                                    <li><a myLang="sliding_roof_lang" id="menu-product-active" href="#">Sliding roof
+                                            systems and parts</a></li>
+                                    <li><a myLang="pvc_rubber_lang" href="../pvc_rubber/pvc_rubber.html">PVC AND RUBBER
+                                            PROFILES</a></li>
+                                    <li><a myLang="rubber_buffer_lang" href="../rubber_buffer/rubber_buffer.html">Rubber
+                                            buffers</a></li>
+                                    <li><a myLang="plastic_product_lang"
+                                            href="../plastic_product/plastic_product.html">Plastic products</a></li>
+                                    <li><a myLang="lamps_lang" href="../lamps/lamps.html">Lamps</a></li>
+                                    <li><a myLang="aluminium_profile_lang"
+                                            href="../aluminium_profile/aluminium_profile.html">Aluminium Profiles</a>
+                                    </li>
+                                    <li><a myLang="landing_gear_lang" href="../landing_gear/landing_gear.html">Landing
+                                            gears, king pin</a></li>
+                                    <li><a myLang="agro_trailer_lang"
+                                            href="../agro_trailer/agro_trailer.html">Agro-trailers parts</a></li>
+                                    <li><a myLang="movable_part_lang" href="../movable_part/movable_part.html">Movable
+                                            partition walls</a></li>
+                                    <li><a myLang="tarpaulin_lang" href="../tarpaulin/tarpaulin.html">Tarpaulin</a></li>
+                                    <li><a myLang="ventilation_lang" href="../ventilation/ventilation.html">Ventilation
+                                            and Emergency hatches</a>
+                                    </li>
+                                    <li><a myLang="seats_luggage_lang" href="../seats_luggage/seats_luggage.html">Seats
+                                            and Luggage racks for
+                                            vans</a></li>
+                                    <li><a myLang="automatic_step_lang"
+                                            href="../automatic_step/automatic_step.html">Automatic step</a></li>
+                                    <li><a myLang="mudflap_lang" href="../mudflap/mudflap.html">Mudflaps</a></li>
+                                    <li><a myLang="modular_isolation_lang"
+                                            href="../modular_isolation/modular_isolation.html">Modular isolation for
+                                            vans</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a myLang="contact" href="../../index.html#contact-us">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lang-menu">
+                        <ul>
+                            <li onclick="setWebsiteLang('en')">
+                                <img class="lang-img" src="../../img/flags/united-kingdom.png">EN
+                            </li>
+                            <li onclick="setWebsiteLang('tr')">
+                                <img class="lang-img" src="../../img/flags/turkey.png">TR
+                            </li>
+                            <li onclick="setWebsiteLang('ru')">
+                                <img class="lang-img" src="../../img/flags/russia.png">RU
+                            </li>
+                            <li onclick="setWebsiteLang('de')">
+                                <img class="lang-img" src="../../img/flags/germany.png">DE
+                            </li>
+                            <li onclick="setWebsiteLang('ar')">
+                                <img class="lang-img" src="../../img/flags/saudi-arabia.png">AR
+                            </li>
+                            <li onclick="setWebsiteLang('fr')">
+                                <img class="lang-img" src="../../img/flags/france.png">FR
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section class="products-section">
+        <div class="container-fluid wrapper">
+            <div id="product_row_id" class="row">
+                <div class="col-lg-12">
+                    <h4 myLang="sliding_f_s" class="products-header">SLIDING ROOF SYSTEMS AND PARTS</h4>
+                    <p myLang="sliding_f_s_dsc" class="products-dsc">ALUMINIUM DOORS, SIDE BOARDS AND ROOF SYSTEMS</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 product-col">
+                        <h5 myLang="side_c">SIDE CURTAIN & SPARE PARTS</h5>
+                        <div>
+                            <a href="imgs/1.jpg" data-lightbox="1">
+                                <img class="product-img product-image-2" src="imgs/1_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                74 — Steel cable + transparance PVC<br>
+                                76 — Eyelet<br>
+                                80 — Buckle (Stainless steel)<br>
+                                81 — Hook (Stainless steel)<br>
+                                82 — Fixing plate (Stainless steel)<br>
+                                83 — Curtain runner - Bearing<br>
+                                84 — Adaptor - Lower part (Stainless steel)<br>
+                                85 — Adaptor - Upper part (Stainless steel)<br>
+                                86 — Front alu-profile<br>
+                                87 — Rear alu-profile<br>
+                                88 — Adhasive Webbing<br>
+                                89 — &empty; 10 PVC cord<br>
+                                90 — Webbing<br>
+                                91 – Rachet (Left - Right)<br>
+                                92 – Side curtain tarpaulin: Verseidag - Heytex (Gemany)<br>
+                                900 Gr., PANAMA, 12 x 12, 1100 dtex<br>
+                                93 – Reinforced tarpaulin 1100 dtex<br>
+                                94 – Strap TIR<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <h5>SIDE CURTAIN & SPARE PARTS</h5>
+                        <div>
+                            <a href="imgs/2.jpg" data-lightbox="2">
+                                <img class="product-img product-image-2" src="imgs/2_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                74 – Steel cable + transparence PVC<br>
+                                76 – Eyelet<br>
+                                82 – Fixing plate (Stainless steel)<br>
+                                83 – Curtain runner - Bearing<br>
+                                84 – Adaptor - Lower part (Stainless steel)<br>
+                                85 – Adaptor - Upper part (Stainless steel)<br>
+                                86 – Front alu-profile<br>
+                                87 – Rear alu-profile<br>
+                                88 – Adhesive Webbing<br>
+                                89 – &empty; 10 PVC cord<br>
+                                92 – Side curtain tarpaulin: Verseidag - Heytex (Gemany) 680 Gr., 9 x 9, 1100 dtex<br>
+                                93 – Reinforced tarpaulin 1100 dtex<br>
+                                94 – Strap TIR
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <h5>SIDE CURTAIN & SPARE PARTS</h5>
+                        <div>
+                            <a href="imgs/3.jpg" data-lightbox="3">
+                                <img class="product-img product-image-2" src="imgs/3_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                80 – Buckle (Stainless steel)<br>
+                                81 – Hook (Stainless steel)<br>
+                                82 – Fixing plate (Stainless steel)<br>
+                                83 – Curtain runner - Bearing<br>
+                                84 – Adaptor - Lower part (Stainless steel)<br>
+                                85 – Adaptor - Upper part (Stainless steel)<br>
+                                86 – Front alu-profile<br>
+                                87 – Rear alu-profile<br>
+                                88 – Adhasive Webbing<br>
+                                89 – &empty; 10 PVC cord<br>
+                                90 – Webbing<br>
+                                91 – Rachel (Left - Right)<br>
+                                92 – Side curtain tarpaulin: Verseidag - Heytex (Gemany) 900 Cr., PANAMA, 12 x 12, 1100
+                                dtex<br>
+                                93 – Reinforced tarpaulin 1100 dtex<br>
+                                94 – Strap TIR
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <h5>SIDE CURTAIN & SPARE PARTS</h5>
+                        <div>
+                            <a href="imgs/4.jpg" data-lightbox="4">
+                                <img class="product-img product-image-2" src="imgs/4_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                74 — Steel cable + transparence PVC<br>
+                                76 — Eyelet<br>
+                                82 — Fixing plate (Stainless steel)<br>
+                                83 — Curtain runner - Steel<br>
+                                84 — Adaptor - Lower part (Stainless steel)<br>
+                                85 — Adaptor - Upper part (Stainless steel)<br>
+                                86 — Front alu-rail<br>
+                                87 — Rear alu-rail<br>
+                                88 — Adhesive Webbing<br>
+                                89 — &empty; 10 PVC cord<br>
+                                91 — Rachet (Left - Right)<br>
+                                92 — Side curtain tarpaulin: Verseidag - Heytex (Gernany) 680 Gr., PANAMA, 9 x 9, 1100
+                                dtex<br>
+                                93 — Reinforced tarpaulin 1100 dtex<br>
+                                94 — Strap TIR
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 product-col">
+                        <h5>SLIDING ROOF SYSTEM-CLASSIC</h5>
+                        <div>
+                            <a href="imgs/5.jpg" data-lightbox="5">
+                                <img class="product-img product-image-2" src="imgs/5_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                <strong>Sliding Roof System;</strong>
+                                Upper and Side Tarpaulins arc operated together (Classic System) Raits (New):
+                                Rails are made of specialty alloyed aluminium. thermic processes are applied-Rails are
+                                produced as different parts and could easily be demounted by one person without using
+                                any tools.<br>
+                                <strong>Roof;</strong>
+                                Assembled Roofsticks are made of Steel Bearings to be used in Sliding Roof Systems.
+                                Thermic processes and toughness tests are applied on Nylon 66 folding plates, which are
+                                used for combining bars, lo be easily demounted with needless in case of interfere is
+                                needed for Tarpaulins.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 product-col">
+                        <h5>Running pillars...</h5>
+                        <div>
+                            <a href="imgs/6.jpg" data-lightbox="5">
+                                <img class="product-img product-image-2" src="imgs/6_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                1 - Set of running pillars with ball beamg<br>
+                                2 - Locking mechanism with shock absorbers<br>
+                                3 - Nylon 6 Folding plate<br>
+                                4 - Roof locking plate<br>
+                                5 - Roof pulling crank<br>
+                                6 - Aluminium profile for rain (2600 mm)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 product-col">
+                        <h5>RAIL & SPARE PARTS</h5>
+                        <div>
+                            <a href="imgs/7.jpg" data-lightbox="5">
+                                <img class="product-img product-image-2" src="imgs/7_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                30 - Roof Rail (Aluminium) (1.960 kg/m)<br>
+                                31 - Plateside connection device<br>
+                                32 - Doorside connection device<br>
+                                33 - Pillar connection device<br>
+                                59 - Fix pillar (Angular) - OPTIONAL
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 product-col">
+                        <h5>SLIDING ROOF SYSTEM - LINER</h5>
+                        <div>
+                            <a href="imgs/8.jpg" data-lightbox="8">
+                                <img class="product-img product-image-2" src="imgs/8_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                <strong>Rails:</strong>
+                                Specially alloyed aluminium rails are used in the production to be fit with a length of
+                                the truck and thermic processes are applied (length of Rail: max. 13600 mm)<br>
+                                <strong>Roof:</strong>
+                                Assembled Roofsticks are made of Steel Bearings to be used in Sliding Roof Systems.
+                                Thermic processes and toughness tests are applied on Nylon 66 folding plates, which are
+                                used for combining bars, to be easily demounted with needless in case of interfere is
+                                needed for Tarpaulins.<br>
+                                <strong>In Roof:</strong>
+                                LINER Sliding Roof System to be formed on the top of the truck could be turned into
+                                Fixed Roof System and Fixed Roof System could be turned into Sliding Roof System either.
+                                There will be no changes on the truck or rails during this transaction.<br>
+                                <strong>Sliding Curtain:</strong>
+                                Side Curtain and Sliding Pillars may be operated independently by using Curtain Runner
+                                with Steel Bearings and Plastic Coated Sliding Pillar Runners with Steel Bearings.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <h5>Running pillars...</h5>
+                        <div>
+                            <a href="imgs/9.jpg" data-lightbox="8">
+                                <img class="product-img product-image-2" src="imgs/9_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                1 - Set of running pillars with ball beamg = BAR<br>
+                                2 - Locking mechanism with shock absorbers<br>
+                                3 - Nylon 66 Folding plate<br>
+                                4 - Roof locking plates<br>
+                                5 - Roof pulling crank<br>
+                                6 -Aluminium profile for rain (2600 mm)<br>
+                                7 -Assembly kit:<br>&emsp;a - Rivet<br>&emsp;b - Eyelet<br>&emsp;c - Plug
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <h5> Bar and Screw...</h5>
+                        <div>
+                            <a href="imgs/10.jpg" data-lightbox="8">
+                                <img class="product-img product-image-2" src="imgs/10_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                20 — Bar of fixed roof (30 x 30 x 2 profile)<br>
+                                21 — Fixed bar slot<br>
+                                22 — M8 x 15 AA Screw<br>
+                                23 — M8 square nut
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <h5>RAIL & SPARE PARTS</h5>
+                        <div>
+                            <a href="imgs/11.jpg" data-lightbox="8">
+                                <img class="product-img product-image-2" src="imgs/11_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                35 —Aluminium rail (7,550 kg/m)<br>
+                                36 — Rubber pelment<br>
+                                37 — Rail / Plateside connections device<br>
+                                38 — Rail / Doorside connections device<br>
+                                39 — Sliding pillar runner (Bearing + Plastic: Delrin)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-9 product-col">
+                        <h5>SLIDING ROOF SYSTEM - STEEL</h5>
+                        <div>
+                            <a href="imgs/12.jpg" data-lightbox="12">
+                                <img class="product-img product-image-2" src="imgs/12_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                <strong> Rails:</strong>
+                                Rails are made of galvanized steel and cambered according to the lengths.<br>
+                                <strong>Roof:</strong>
+                                Assembled Roofsticks are made of Steel Bearings to be used in Sliding Roof
+                                Systems.Thermic processes and toughness tests are applied on Nylon 66 folding plates,
+                                which are used for combining bars, to be easily demounted with needless in case of
+                                interfere is needed for Tarpaulins. Folding plates and specially alloyed aluminium pipes
+                                from Tarpaulin plating system and provides this system work perfectly as accordion fold
+                                during opening process.<br>
+                                <strong>In Roof;</strong>
+                                STEEL Sliding Roof System to be formed on the top of the truck could be turned into
+                                Fixed Roof System and Fixed Roof System could be turned into Sliding Roof System either.
+                                There will be no changes on the truck or rails during this transaction.<br>
+                                <strong>Sliding Curtain / Sliding Pillar:</strong>
+                                Side Curtain System and Sliding Pillars may be operated independently by using Steel
+                                Curtain Runners and Steel Sliding Pillar Runners.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <h5>Running pillars...</h5>
+                        <div>
+                            <a href="imgs/13.jpg" data-lightbox="12">
+                                <img class="product-img product-image-2" src="imgs/13_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                1 - Set of running pillars with ball beamg = BAR<br>
+                                2 - Locking mechanism with shock absorbers<br>
+                                3 - Nylon 66 Folding plate<br>
+                                4 - Roof locking plates<br>
+                                5 - Roof pulling crank<br>
+                                6 -Aluminium profile for rain (2600 mm)<br>
+                                7 -Assembly kit:<br>&emsp;a - Rivet<br>&emsp;b - Eyelet<br>&emsp;c - Plug
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-9 product-col">
+                        <h5>SLIDING ROOF SYSTEM - FIXED STEEL</h5>
+                        <div>
+                            <a href="imgs/14.jpg" data-lightbox="14">
+                                <img class="product-img product-image-2" src="imgs/14_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                <strong>Rails:</strong>
+                                Rails are made of galvanized steel and cambered according to the lengths.<br>
+                                <strong>Roof:</strong>
+                                Assembled Roofsticks are made of Steel Bearings to be used in Sliding Roof Systems.
+                                Thermic processes and toughness tests are applied on Nylon 66 folding plates, which are
+                                used for combining bars, to be easily demounted with needless in case of interfere is
+                                needed for Tarpaulins. Folding plates and specially alloyed aluminium pipes from
+                                Tarpaulin plating system and provides this system work perfectly as accordion fold
+                                during opening process.<br>
+                                <strong>In Roof;</strong>
+                                STEEL Sliding Roof System to be formed on the top of the truck could be turned into
+                                Fixed Roof System and Fixed Roof System could be turned into Sliding Roof System either.
+                                There will be no changes on the truck or rails during this transaction.<br>
+                                <strong>Sliding Curtain / Sliding Pillar:</strong>
+                                Side Curtain System and Sliding Pillars may be operated independently by using Steel
+                                Curtain Runners and Steel Sliding Pillar Runners.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <h5>RAIL & SPARE PARTS</h5>
+                        <div>
+                            <a href="imgs/15.jpg" data-lightbox="14">
+                                <img class="product-img product-image-2" src="imgs/15_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                36 — Rubber pelment<br>
+                                46 — Combined rail - Steel (Max. 9500) <br>
+                                47 — SCL Plateside connections device<br>
+                                48 — SCL Doorside connections <br>
+                                49 — SCL Sliding pillar runner
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 product-col">
+                        <h5>SLIDING ROOF SYSTEM - STEEL 2</h5>
+                        <div>
+                            <a href="imgs/16.jpg" data-lightbox="16">
+                                <img class="product-img product-image-2" src="imgs/16_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text product-p">
+                                <strong>Rails:</strong>
+                                Specially alloyed aluminium rails are used in the production to be fit with a length of
+                                the truck and thermic processes are applied (length of Rail: max. 13600 mm)<br>
+                                <strong>Roof:</strong>
+                                Assembled Roofsticks are made of Steel Bearings to be used in Sliding Roof Systems.
+                                Thermic processes and toughness tests are applied on Nylon 66 folding plates, which are
+                                used for combining bars, to be easily demounted with needless in case of interfere is
+                                needed for Tarpaulins.<br>
+                                <strong>In Roof:</strong>
+                                LINER Sliding Roof System to be formed on the top of the truck could be turned into
+                                Fixed Roof System and Fixed Roof System could be turned into Sliding Roof System either.
+                                There will be no changes on the truck or rails during this transaction.<br>
+                                <strong>Sliding Curtain:</strong>
+                                Side Curtain and Sliding Pillars may be operated independently by using Curtain Runner
+                                with Steel Bearings and Plastic Coated Sliding Pillar Runners with Steel Bearings.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid wrapper">
+            <div class="col-sm-6 col-md-12 social-icons-footer">
+                <ul class="list-inline social-buttons">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-google"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 copyright-bottom">
+                <span class="copyright">Copyright &copy; <a>elifSoft</a> 2022 template by <a href="http://templatestock"
+                        target="_blank">Template Stock</a> </span>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll-up -->
+    <div class="scroll-up">
+        <a href="#header" class="page-scroll"><i class="fa fa-angle-up" style="font-size:40px;color:white;"></i></a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+
+    <script src="../../js/lightbox.min.js"></script>
+
+    <!-- Private Languages -->
+    <script src="./private_lang.js"></script>
+
+    <!-- Languages -->
+    <script src="../../js/lang.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../../js/fi-truck.js"></script>
+
+    <!-- Footer Reveal scirt -->
+    <script src="../../js/footer-reveal.js"></script>
+
+</body>
+
+</html>

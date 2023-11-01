@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Future Innovations Ltd</title>
+
+    <!-- Bootstrap Core CSS -->
+
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+
+    <link href="../../css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <link rel="stylesheet" href="../../css/products.css">
+
+    <link rel="stylesheet" href="./product.css">
+
+    <!-- Custom Fonts -->
+
+    <link href="../../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top my-navbar">
+            <div class="container-fluid top-nav">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo-top page-scroll" href="../../index.html">
+                        <img class="img-responsive logo" src="../../img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="row my-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden nav-buttons">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li>
+                                <a myLang="home" href="../../index.html">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                    aria-expanded="false"><span myLang="products">Products</span> <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu menu-list">
+                                    <li><a myLang="box_ref_lang" href="../box_ref/box_ref.html">Box, Refrigerated
+                                            box</a></li>
+                                    <li><a myLang="external_lock_lang"
+                                            href="../external_lock/external_lock.html">External Lock Sets</a></li>
+                                    <li><a myLang="aluminium_doors_lang"
+                                            href="../aluminium_doors/aluminium_doors.html">Aluminium doors and side
+                                            boards</a></li>
+                                    <li><a myLang="sliding_roof_lang" href="../sliding_roof/sliding_roof.html">Sliding
+                                            roof systems and
+                                            parts</a></li>
+                                    <li><a myLang="pvc_rubber_lang" href="../pvc_rubber/pvc_rubber.html">PVC AND RUBBER
+                                            PROFILES</a></li>
+                                    <li><a myLang="rubber_buffer_lang" href="../rubber_buffer/rubber_buffer.html">Rubber
+                                            buffers</a></li>
+                                    <li><a myLang="plastic_product_lang"
+                                            href="../plastic_product/plastic_product.html">Plastic products</a></li>
+                                    <li><a myLang="lamps_lang" href="../lamps/lamps.html">Lamps</a></li>
+                                    <li><a myLang="aluminium_profile_lang"
+                                            href="../aluminium_profile/aluminium_profile.html">Aluminium Profiles</a>
+                                    </li>
+                                    <li><a myLang="landing_gear_lang" id="menu-product-active" href="#">Landing gears,
+                                            king pin</a></li>
+                                    <li><a myLang="agro_trailer_lang"
+                                            href="../agro_trailer/agro_trailer.html">Agro-trailers parts</a></li>
+                                    <li><a myLang="movable_part_lang" href="../movable_part/movable_part.html">Movable
+                                            partition walls</a></li>
+                                    <li><a myLang="tarpaulin_lang" href="../tarpaulin/tarpaulin.html">Tarpaulin</a></li>
+                                    <li><a myLang="ventilation_lang" href="../ventilation/ventilation.html">Ventilation
+                                            and Emergency hatches</a>
+                                    </li>
+                                    <li><a myLang="seats_luggage_lang" href="../seats_luggage/seats_luggage.html">Seats
+                                            and Luggage racks for
+                                            vans</a></li>
+                                    <li><a myLang="automatic_step_lang"
+                                            href="../automatic_step/automatic_step.html">Automatic step</a></li>
+                                    <li><a myLang="mudflap_lang" href="../mudflap/mudflap.html">Mudflaps</a></li>
+                                    <li><a myLang="modular_isolation_lang"
+                                            href="../modular_isolation/modular_isolation.html">Modular isolation for
+                                            vans</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a myLang="contact" href="../../index.html#contact-us">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lang-menu">
+                        <ul>
+                            <li onclick="setWebsiteLang('en')">
+                                <img class="lang-img" src="../../img/flags/united-kingdom.png">EN
+                            </li>
+                            <li onclick="setWebsiteLang('tr')">
+                                <img class="lang-img" src="../../img/flags/turkey.png">TR
+                            </li>
+                            <li onclick="setWebsiteLang('ru')">
+                                <img class="lang-img" src="../../img/flags/russia.png">RU
+                            </li>
+                            <li onclick="setWebsiteLang('de')">
+                                <img class="lang-img" src="../../img/flags/germany.png">DE
+                            </li>
+                            <li onclick="setWebsiteLang('ar')">
+                                <img class="lang-img" src="../../img/flags/saudi-arabia.png">AR
+                            </li>
+                            <li onclick="setWebsiteLang('fr')">
+                                <img class="lang-img" src="../../img/flags/france.png">FR
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section class="products-section">
+        <div class="container-fluid wrapper">
+            <div id="product_row_id" class="row">
+                <div class="col-lg-12">
+                    <h4 myLang="landing_king" class="products-header">LANDING GEARS, KING PIN, CONTAINER TWIST LOCKS
+                    </h4>
+                </div>
+                <h4 myLang="landing_gears">LANDING GEARS</h4>
+                <!--Landing gears - series MAJESTIC-->
+                <p class="topic"><strong><span myLang="landing_gears_majestic">Landing gears - series
+                            MAJESTIC</span></strong><br>
+                    <span myLang="landing_gears_majestic_dsc">Combined base, base with ball mechanism, semicircular
+                        base, base wheel, flat base, flat base with low bracket</span></p>
+                <div class="row">
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/1.jpg" data-lightbox="1">
+                                <img class="product-img" src="imgs/1_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/2.jpg" data-lightbox="1">
+                                <img class="product-img" src="imgs/2_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/3.jpg" data-lightbox="1">
+                                <img class="product-img" src="imgs/3_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/4.jpg" data-lightbox="1">
+                                <img class="product-img" src="imgs/4_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Landing gears - series CLS 110-->
+                <p class="topic"><strong><span myLang="landing_gears_cls">Landing gears - series CLS
+                            110</span></strong><br>
+                    <span myLang="landing_gears_majestic_dsc">Combined base, base with ball mechanism, semicircular
+                        base, base wheel, flat base, flat base with
+                        low bracket</span></p>
+                <div class="row">
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/5.jpg" data-lightbox="2">
+                                <img class="product-img" src="imgs/5_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/6.jpg" data-lightbox="2">
+                                <img class="product-img" src="imgs/6_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/7.jpg" data-lightbox="2">
+                                <img class="product-img" src="imgs/7_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/8.jpg" data-lightbox="2">
+                                <img class="product-img" src="imgs/8_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--KING PINS-->
+                <h4 myLang="king_pins" class="my-h4">KING PINS</h4>
+                <div class="row">
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/k_1_1.jpg" data-lightbox="box_ref">
+                                <img class="product-img" src="imgs/k_1_1_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="imgs/k_1_2.jpg" data-lightbox="box_ref">
+                                <img class="product-img" src="imgs/k_1_2_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text">
+                                <span myLang="king_pin">
+                                    King Pin</span><br>
+                                <strong class="product-code"><span myLang="product_code">Product
+                                        Code</span></strong><br>
+                                100.14.001-8<br>
+                                <strong><span myLang="base_thickness">Base thickness</span>:</strong> 8 mm<br>
+                                <strong><span myLang="diameter">Diameter</span>:</strong> 2" (inches)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/k_2_1.jpg" data-lightbox="box_ref">
+                                <img class="product-img" src="imgs/k_2_1_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="imgs/k_2_2.jpg" data-lightbox="box_ref">
+                                <img class="product-img" src="imgs/k_2_2_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text">
+                                <span myLang="king_pin">
+                                    King Pin</span><br>
+                                <strong class="product-code"><span myLang="product_code">Product
+                                        Code</span></strong><br>
+                                100.14.001-10<br>
+                                <strong><span myLang="base_thickness">Base thickness</span>:</strong> 10 mm<br>
+                                <strong><span myLang="diameter">Diameter</span>:</strong> 2" (inches)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/k_3_1.jpg" data-lightbox="box_ref">
+                                <img class="product-img" src="imgs/k_3_1_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="imgs/k_3_2.jpg" data-lightbox="box_ref">
+                                <img class="product-img" src="imgs/k_3_2_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text">
+                                <span myLang="king_pin">
+                                    King Pin</span><br>
+                                <strong class="product-code"><span myLang="product_code">Product
+                                        Code</span></strong><br>
+                                100.14.001-10<br>
+                                <strong><span myLang="base_thickness">Base thickness</span>:</strong> 10 mm<br>
+                                <strong><span myLang="diameter">Diameter</span>:</strong> 3,5" (inches)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/k_4_1.jpg" data-lightbox="box_ref">
+                                <img class="product-img" src="imgs/k_4_1_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="imgs/k_4_2.jpg" data-lightbox="box_ref">
+                                <img class="product-img" src="imgs/k_4_2_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text">
+                                <span myLang="king_pin">
+                                    King Pin</span><br>
+                                <strong class="product-code"><span myLang="product_code">Product
+                                        Code</span></strong><br>
+                                100.14.001-12<br>
+                                <strong><span myLang="base_thickness">Base thickness</span>:</strong> 12 mm<br>
+                                <strong><span myLang="diameter">Diameter</span>:</strong> 3,5" (inches)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Twist locks-->
+                <h4 myLang="twist_locks" class="my-h4">Twist Locks</h4>
+                <div class="row">
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/t_1_1.jpg" data-lightbox="t">
+                                <img class="product-img" src="imgs/t_1_1_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="imgs/t_1_2.jpg" data-lightbox="t">
+                                <img class="product-img" src="imgs/t_1_2_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text">
+                                <span myLang="twist_locks">
+                                    Twist locks</span><br>
+                                <strong class="product-code"><span myLang="product_code">Product
+                                        Code</span></strong><br>
+                                100.15.001-3
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/t_2_1.jpg" data-lightbox="t">
+                                <img class="product-img" src="imgs/t_2_1_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="imgs/t_2_2.jpg" data-lightbox="t">
+                                <img class="product-img" src="imgs/t_2_2_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text">
+                                <span myLang="twist_locks">
+                                    Twist locks</span><br>
+                                <strong class="product-code"><span myLang="product_code">Product
+                                        Code</span></strong><br>
+                                100.15.001-4
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/t_3_1.jpg" data-lightbox="t">
+                                <img class="product-img" src="imgs/t_3_1_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="imgs/t_3_2.jpg" data-lightbox="t">
+                                <img class="product-img" src="imgs/t_3_2_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text">
+                                <span myLang="twist_locks">
+                                    Twist locks</span><br>
+                                <strong class="product-code"><span myLang="product_code">Product
+                                        Code</span></strong><br>
+                                100.15.003-3
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-col">
+                        <div>
+                            <a href="imgs/t_4_1.jpg" data-lightbox="t">
+                                <img class="product-img" src="imgs/t_4_1_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="imgs/t_4_2.jpg" data-lightbox="t">
+                                <img class="product-img" src="imgs/t_4_2_thumb.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="product-text">
+                                <span myLang="twist_locks">
+                                    Twist locks</span><br>
+                                <strong class="product-code"><span myLang="product_code">Product
+                                        Code</span></strong><br>
+                                100.15.003-4
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Locking mechanism of the container: 100.15.007-->
+                <h5 class="my-h4"><span myLang="locking_container">Locking mechanism of the container</span>: 100.15.007
+                </h5>
+                <div class="row">
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/a_1_1.jpg" data-lightbox="a">
+                                <img class="product-img" src="imgs/a_1_1_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/a_1_2.jpg" data-lightbox="a">
+                                <img class="product-img" src="imgs/a_1_2_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/a_2_1.jpg" data-lightbox="a">
+                                <img class="product-img" src="imgs/a_2_1_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/a_2_2.jpg" data-lightbox="a">
+                                <img class="product-img" src="imgs/a_2_2_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/a_3_1.jpg" data-lightbox="a">
+                                <img class="product-img" src="imgs/a_3_1_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/a_3_2.jpg" data-lightbox="a">
+                                <img class="product-img" src="imgs/a_3_2_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Locking mechanism of the container: 100.15.009-->
+                <h5 class="my-h4"><span myLang="locking_container">Locking mechanism of the container</span>: 100.15.009
+                </h5>
+                <div class="row">
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/b_1_1.jpg" data-lightbox="b">
+                                <img class="product-img" src="imgs/b_1_1_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/b_1_2.jpg" data-lightbox="b">
+                                <img class="product-img" src="imgs/b_1_2_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/b_2_1.jpg" data-lightbox="b">
+                                <img class="product-img" src="imgs/b_2_1_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/b_2_2.jpg" data-lightbox="b">
+                                <img class="product-img" src="imgs/b_2_2_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/b_3_1.jpg" data-lightbox="b">
+                                <img class="product-img" src="imgs/b_3_1_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/b_3_2.jpg" data-lightbox="b">
+                                <img class="product-img" src="imgs/b_3_2_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Locking mechanism of the container: 100.15.005-->
+                <h5 class="my-h4"><span myLang="locking_container">Locking mechanism of the container</span>: 100.15.005
+                </h5>
+                <div class="row">
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/c_1_1.jpg" data-lightbox="c">
+                                <img class="product-img" src="imgs/c_1_1_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/c_1_2.jpg" data-lightbox="c">
+                                <img class="product-img" src="imgs/c_1_2_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/c_2_1.jpg" data-lightbox="c">
+                                <img class="product-img" src="imgs/c_2_1_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/c_2_2.jpg" data-lightbox="c">
+                                <img class="product-img" src="imgs/c_2_2_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/c_3_1.jpg" data-lightbox="c">
+                                <img class="product-img" src="imgs/c_3_1_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 product-col">
+                        <div>
+                            <a href="imgs/c_3_2.jpg" data-lightbox="c">
+                                <img class="product-img" src="imgs/c_3_2_thumb.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid wrapper">
+            <div class="col-sm-6 col-md-12 social-icons-footer">
+                <ul class="list-inline social-buttons">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-google"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 copyright-bottom">
+                <span class="copyright">Copyright &copy; <a>elifSoft</a> 2022 template by <a href="http://templatestock"
+                        target="_blank">Template Stock</a> </span>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll-up -->
+    <div class="scroll-up">
+        <a href="#header" class="page-scroll"><i class="fa fa-angle-up" style="font-size:40px;color:white;"></i></a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+
+    <script src="../../js/lightbox.min.js"></script>
+
+    <!-- Private Languages -->
+    <script src="./private_lang.js"></script>
+
+    <!-- Languages -->
+    <script src="../../js/lang.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../../js/fi-truck.js"></script>
+
+    <!-- Footer Reveal scirt -->
+    <script src="../../js/footer-reveal.js"></script>
+
+</body>
+
+</html>
